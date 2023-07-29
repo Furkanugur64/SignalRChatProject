@@ -6,15 +6,16 @@ var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
 document.getElementById("sendButton").disabled = true;
 
 connection.on("ReceiveMessage", function (user, message) {
-    //var li = document.createElement("li");
-    //document.getElementById("messagesList").appendChild(li);
-    //li.textContent = `${user} : ${message}`;
+ var currentTime = new Date();
+    var currentHour = currentTime.getHours();
+    var currentMinute = currentTime.getMinutes();
+
     var li = document.createElement("li");
     var span = document.createElement("span");
-    span.style.fontWeight = "bold"; 
+    span.style.fontWeight = "bold";
     span.textContent = user;
     li.appendChild(span);
-    li.innerHTML += ` : ${message}`; 
+    li.innerHTML += ` : ${message} - ${currentHour}:${currentMinute}`;
     document.getElementById("messagesList").appendChild(li);
 });
 

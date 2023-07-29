@@ -6,11 +6,11 @@ Projede SignalR kütüphanesi kullanılarak gerçek zamanlı olarak mesajlaşma 
  ## Proje içi Görseller 
  ------------
 
-## 1. Kullanıcı
+## Birinci Kullanıcı
 ![](https://i.hizliresim.com/iylt4hm.png)
 ------------
 
-## 2. Kullanıcı
+## İkinci Kullanıcı
 ![](https://i.hizliresim.com/dmmodj6.png)
 ------------
 

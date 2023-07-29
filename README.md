@@ -7,11 +7,11 @@ Projede SignalR kütüphanesi kullanılarak gerçek zamanlı olarak mesajlaşma 
  ------------
 
 ## Birinci Kullanıcı
-![](https://i.hizliresim.com/iylt4hm.png)
+![](https://i.hizliresim.com/89c1bey.png)
 ------------
 
 ## İkinci Kullanıcı
-![](https://i.hizliresim.com/dmmodj6.png)
+![](https://i.hizliresim.com/pp91u42.png)
 ------------
 
 ## 🔗 Contact with me:
